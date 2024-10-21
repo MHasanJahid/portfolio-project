@@ -308,4 +308,143 @@
     margin-top: 2.5px;
     border-radius: 10px;
 }
+/* portfolio-section */
+.portfolio-section{
+    background-color: #31065A;
+}
+.portfolio-title{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 66px;
+    /* padding-bottom: 115px; */
+    position: relative;
+    
+}
+.image-box {
+    text-align: center;
+}
+.image-box > img{
+    width: 220px;
+    height: 180px;
+    padding-top: 100px;
+    
+}
+.image-box > img:hover{
+   opacity: 0.5;
+   cursor: pointer;
+   width: 210px;
+   height: 170px;
+}
+.image-box2 {
+    text-align: center;
+}
+.image-box2 > img{
+    width: 220px;
+    height: 180px;
+    padding-bottom: 120px;
+    
+}
+.image-box2 > img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    width: 210px;
+    height: 170px;
+ }
+ /* footer contact section */
+ .contact-title{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 66px;
+    /* padding-bottom: 115px; */
+    position: relative;
+    
+}
+#contact-section{
+    background-color: #170550;
+}
+.firstdiv{
+    width: 300px;
+    height: 260px;
+}
+.contact-address1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 300px;
+    height: 260px; */
+}
 
+.contact-address1> img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 100px 110px;
+}
+.input{
+    width: 500px;
+    height:23px;
+    background-color: #43366A;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+.input-ns{
+    width: 242px;
+    height:23px;
+    background-color: #43366A;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+.textArea{
+    width: 500px;
+    height: 100px;
+    background-color: #43366A;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+.btn-send{
+    padding: 8px 15px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: #43366A;
+    color: #8b8181;
+    
+}
+.btn-send:hover{
+    padding: 8px 15px;
+    border-radius: 23px;
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
+.send{
+    text-align: center;
+}
+.second-footer > p{
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #31065A;
+    color: #fff;
+}
