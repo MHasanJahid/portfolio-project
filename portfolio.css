@@ -22,17 +22,21 @@
    cursor: pointer;
    border-radius: 40px;
    padding: 6px;
+   transition: 0.5s;
+   opacity: 0.5;
 }
 .nav-menu > li {
     list-style-type: none;
     color: #fff;
     padding: 6px;
+    opacity: 1;
 }
 
 .btn-hire{
     padding: 6px 10px;
     border-radius: 23px;
     border: none;
+    opacity: 1;
 }
 .btn-hire:hover{
     padding: 6px 10px;
@@ -40,6 +44,8 @@
     background-color: cadetblue;
     color: #461959;
     cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
 }
 /* home banar css */
 .home-banar{
@@ -83,10 +89,23 @@
 
 }
 .socail-icon > img {
+    width: 25px;
+    height: 25px;
     margin-right: 20px;
     border: 1px solid white;
     border-radius: 100%;
-    padding: 8px;
+    padding: 3px;
+    opacity: 1;
+}
+.socail-icon > img:hover{
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+
+
 }
 .btn-cv{
     background-color: #F86F03;
@@ -96,6 +115,7 @@
     border: none;
     margin: 20px 0px;
     text-transform: capitalize;
+    opacity: 1;
 
 }
 .btn-cv:hover{
@@ -104,6 +124,8 @@
     background-color: cadetblue;
     color: #461959;
     cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
 }
 #section-about{
     background-color: #170550;
@@ -143,7 +165,15 @@
     height: 400px;
     border-radius: 10px;
     margin-left: 150px;
+    transition: 0.5;
+    
 }
+.photo >img:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+
+}
+
 .info{
     width: 647px;
     height: 367px;
@@ -174,6 +204,7 @@
     background-color: cadetblue;
     color: #461959;
     cursor: pointer;
+    transition: 0.5s;
 }
 /* my services section */
 #my-services{
@@ -215,7 +246,11 @@
     border-radius: 20px;
     padding: 50px;
     text-align: center;
+    transition: 0.5s;
 
+}
+.single-card:hover{
+    opacity: 0.7;
 }
 .single-card > h2{
     padding: 50px;
@@ -335,8 +370,9 @@
 .image-box > img:hover{
    opacity: 0.5;
    cursor: pointer;
-   width: 210px;
-   height: 170px;
+   width: 217px;
+   height: 178px;
+   transition: 0.5s;
 }
 .image-box2 {
     text-align: center;
@@ -350,8 +386,9 @@
 .image-box2 > img:hover{
     opacity: 0.5;
     cursor: pointer;
-    width: 210px;
-    height: 170px;
+    width: 217px;
+    height: 178px;
+    transition: 0.5s;
  }
  /* footer contact section */
  .contact-title{
@@ -384,6 +421,9 @@
     width: 25px;
     height: 25px;
     padding: 5px;
+}
+.contact-address1> p {
+    color: #fff;
 }
 
 .contact-form{
@@ -429,6 +469,7 @@
     border-radius: 30px;
     background-color: #43366A;
     color: #8b8181;
+    transition: 0.5s;
     
 }
 .btn-send:hover{
@@ -437,6 +478,7 @@
     background-color: cadetblue;
     color: black;
     cursor: pointer;
+    
 }
 .send{
     text-align: center;
